@@ -1,0 +1,22 @@
+.header {
+	display: flex;
+	align-items: center;
+	padding: 47rem 42rem 65rem 32rem;
+	&__links{
+		display: flex;
+		gap: 32rem;
+	}
+}
+a{
+	text-decoration: none;
+}
+.ml-auto{
+	display: flex;
+	justify-content: space-between;
+	gap: 24rem;
+}
+button{
+	background: none;
+	border: none;
+	cursor: pointer;
+}

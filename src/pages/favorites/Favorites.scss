@@ -1,0 +1,17 @@
+.favorites-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-left: 32rem;
+}
+.favourites-container{
+	height: 100%;
+}
+.favorites{
+	&__title{
+		font-weight: 600;
+		font-size: 20rem;
+		color: var(--white);
+		margin-left: 32rem;
+		margin-bottom: 24rem;
+	}
+}

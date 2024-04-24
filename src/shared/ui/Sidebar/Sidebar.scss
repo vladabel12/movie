@@ -1,0 +1,39 @@
+.sidebar {
+	padding: 40px;
+	background: #21201E;
+	height: 100%;
+	min-width: 274px;
+	box-shadow: 2px 0px 90px rgba(97, 0, 194, 0.4);
+}
+.sidebar-icon{
+	max-width: 24rem;
+	max-height: 24rem;
+}
+.sidebar-links{
+	display: flex;
+	justify-content: start;
+	gap: 12rem;
+	align-items: center;
+	font-weight: 400;
+	font-size: 16rem;
+	line-height: 150%;
+	color: var(--white);
+	opacity: 0.8;
+}
+.sidebar-home{
+	margin-top: 58rem;
+	margin-bottom: 35rem;
+}
+.simple{
+	margin-bottom: 34rem;
+}
+.community{
+	margin-top: 88rem;
+	margin-bottom: 33rem;
+}
+.social{
+	margin-bottom: 257rem;
+}
+.active{
+	color: red;
+}
